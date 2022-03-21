@@ -1,6 +1,5 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.HashMap;
 
 public  class grades{
     public static void main(String[] args){
@@ -9,7 +8,6 @@ public  class grades{
         int i=0;
         float grades1=0,grades2=0,grades3=0,grades4=0;
         String Topper1="",Topper2="",Topper3="",Topper4="",S1="",S2="",S3="",S4="";
-        HashMap<String,Integer> hm=new HashMap<String,Integer>();
         try (BufferedReader br =new BufferedReader(new FileReader(file))){
             while((line = br.readLine()) != null){
                 if(i!=0){
